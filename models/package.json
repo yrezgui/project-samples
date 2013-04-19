@@ -1,0 +1,10 @@
+{
+	"name": "Node Mongoose Sample",
+	"description": "List of often used models in projects (user, product, roles, etc.)",
+	"author": "Yacine Rezgui <rezgui.y@gmail.com>",
+	"version": "0.0.1",
+	"dependencies": {
+		"mongoose": "3.6.x"
+	},
+	"engine": "node >= 0.8.x"
+}
