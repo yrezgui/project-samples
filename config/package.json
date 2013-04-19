@@ -1,0 +1,8 @@
+{
+	"name": "Node Config Sample",
+	"description": "A sample of config files organization",
+	"author": "Yacine Rezgui <rezgui.y@gmail.com>",
+	"version": "0.0.1",
+	"dependencies": {},
+	"engine": "node >= 0.8.x"
+}
