@@ -1,12 +1,9 @@
-#Create a new iOS project with PhoneGap
+This is PhoneGap template to bootstrap your application with geolocation capabilities.
 
-List of useful commands:
+We use the navigator.geolocation.getCurrentPosition in the cordova UIWebView and when the app is in the background, we use a Plugin to invoke a thread in the background natively.
 
-Download the PhoneGap repo from http://phonegap.com/download/#
+In the config.xml add the reference to the plugin
 
-Navigate to phonegap-2.5.0/lib/ios
-Execute the create script
+<code><plugin name="BackgroundMode" value="BackgroundMode" /></code>
 
-$ ./create <path> <structure> <name>
-	
-<structure> is something like com.phonegapsamples.childbrowser
+Then launch you can invoke it with the Cordova.exec function with the following paramteres : success handler, error handler, identifier, action, array of parameters
