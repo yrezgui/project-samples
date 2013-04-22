@@ -3,7 +3,7 @@ document.addEventListener('deviceready', onDeviceReady, false)
 function onDeviceReady() {
     
     
-    setTimeout(function(){longRunningTask()}, 5000);
+    setTimeout(function(){longRunningTask()}, 2000);
     
     
     
