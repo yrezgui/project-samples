@@ -1,0 +1,21 @@
+
+<h1 class="header">Offers</h1>
+
+
+<div class="wrap"><div class="frame smart" id="smart">
+
+
+    <ul class="items" style="-webkit-transform: translateZ(0px) translateY(0px);">
+        <li ng-repeat="offer in offers" style="background: url('{{offer.url}}'); background-size: 320px auto">
+            <label class="name {{offer.type}}">{{offer.name}}</label>
+            <section class="mask"></section>
+
+            <label class="time-left">{{offer.time}}</label>
+            <label class="price">{{offer.price}}</label>
+        </li>
+    </ul>
+
+
+
+
+</div></div>
